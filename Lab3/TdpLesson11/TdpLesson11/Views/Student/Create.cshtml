@@ -1,0 +1,196 @@
+﻿@model TdpLesson11.Models.Student
+@using TdpLesson11.Models
+
+@{
+    ViewData["Title"] = "Thêm sinh viên";
+}
+
+<h2 class="text-center">THÊM SINH VIÊN</h2>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+
+        <form asp-controller="Student"
+              asp-action="Create"
+              method="post">
+
+            @Html.AntiForgeryToken()
+
+            <!-- Hiển thị toàn bộ lỗi kiểm tra dữ liệu -->
+            <div asp-validation-summary="All"
+                 class="text-danger mb-3">
+            </div>
+
+            <!-- Họ tên -->
+            <div class="form-group mb-3">
+                <label asp-for="Name" class="form-label"></label>
+
+                <input asp-for="Name"
+                       class="form-control"
+                       placeholder="Nhập họ và tên" />
+
+                <span asp-validation-for="Name"
+                      class="text-danger">
+                </span>
+            </div>
+
+            <!-- Email -->
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="form-label"></label>
+
+                <input asp-for="Email"
+                       class="form-control"
+                       placeholder="example@gmail.com" />
+
+                <span asp-validation-for="Email"
+                      class="text-danger">
+                </span>
+            </div>
+
+            <!-- Mật khẩu -->
+            <div class="form-group mb-3">
+                <label asp-for="Password" class="form-label"></label>
+
+                <input asp-for="Password"
+                       type="password"
+                       class="form-control"
+                       placeholder="Nhập mật khẩu" />
+
+                <span asp-validation-for="Password"
+                      class="text-danger">
+                </span>
+            </div>
+
+            <!-- Ngành học -->
+            <div class="form-group mb-3">
+                <label asp-for="Branch" class="form-label"></label>
+
+                <select asp-for="Branch"
+                        class="form-select"
+                        asp-items="Html.GetEnumSelectList<Branch>()">
+
+                    <option value="">-- Chọn ngành học --</option>
+
+                </select>
+
+                <span asp-validation-for="Branch"
+                      class="text-danger">
+                </span>
+            </div>
+
+            <!-- Giới tính -->
+            <div class="form-group mb-3">
+                <label asp-for="Gender" class="form-label"></label>
+
+                <div>
+                    @foreach (Gender gender in Enum.GetValues(typeof(Gender)))
+                    {
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input"
+                                   type="radio"
+                                   asp-for="Gender"
+                                   value="@gender"
+                                   id="Gender_@gender" />
+
+                            <label class="form-check-label"
+                                   for="Gender_@gender">
+                                @(
+                                    gender == Gender.Male
+                                        ? "Nam"
+                                        : "Nữ"
+                                )
+                            </label>
+                        </div>
+                    }
+                </div>
+
+                <span asp-validation-for="Gender"
+                      class="text-danger">
+                </span>
+            </div>
+
+            <!-- Hệ đào tạo -->
+            <div class="form-group mb-3">
+                <label asp-for="IsRegular" class="form-label"></label>
+
+                <div class="form-check">
+                    <input asp-for="IsRegular"
+                           class="form-check-input" />
+
+                    <label asp-for="IsRegular"
+                           class="form-check-label">
+                        Hệ chính quy
+                    </label>
+                </div>
+            </div>
+
+            <!-- Địa chỉ -->
+            <div class="form-group mb-3">
+                <label asp-for="Address" class="form-label"></label>
+
+                <textarea asp-for="Address"
+                          class="form-control"
+                          rows="3"
+                          placeholder="Nhập địa chỉ">
+                </textarea>
+
+                <span asp-validation-for="Address"
+                      class="text-danger">
+                </span>
+            </div>
+
+            <!-- Ngày sinh -->
+            <div class="form-group mb-3">
+                <label asp-for="DateOfBorth"
+                       class="form-label">
+                </label>
+
+                <input asp-for="DateOfBorth"
+                       type="date"
+                       class="form-control" />
+
+                <span asp-validation-for="DateOfBorth"
+                      class="text-danger">
+                </span>
+            </div>
+
+            <!-- Điểm -->
+            <div class="form-group mb-3">
+                <label asp-for="Score" class="form-label"></label>
+
+                <input asp-for="Score"
+                       type="number"
+                       step="any"
+                       min="0"
+                       max="10"
+                       class="form-control"
+                       placeholder="Nhập điểm từ 0 đến 10" />
+
+                <span asp-validation-for="Score"
+                      class="text-danger">
+                </span>
+            </div>
+
+            <!-- Nút chức năng -->
+            <div class="mt-4">
+                <button type="submit"
+                        class="btn btn-primary">
+                    Thêm sinh viên
+                </button>
+
+                <a asp-controller="Student"
+                   asp-action="Index"
+                   class="btn btn-secondary">
+                    Quay lại
+                </a>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

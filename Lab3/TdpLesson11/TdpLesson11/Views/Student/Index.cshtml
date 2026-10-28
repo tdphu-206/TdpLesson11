@@ -1,0 +1,71 @@
+﻿@model IEnumerable<TdpLesson11.Models.Student>
+
+@{
+    ViewData["Title"] = "Danh sách sinh viên";
+}
+
+<h2 class="text-center">DANH SÁCH SINH VIÊN</h2>
+
+<hr />
+
+<div class="mb-3">
+    <a asp-controller="Student"
+       asp-action="Create"
+       class="btn btn-primary">
+        Thêm sinh viên
+    </a>
+</div>
+
+@if (Model != null && Model.Any())
+{
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th>Mã SV</th>
+                    <th>Họ và tên</th>
+                    <th>Email</th>
+                    <th>Ngành học</th>
+                    <th>Giới tính</th>
+                    <th>Hệ đào tạo</th>
+                    <th>Địa chỉ</th>
+                    <th>Ngày sinh</th>
+                    <th>Điểm</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var student in Model)
+                {
+                    <tr>
+                        <td>@student.Id</td>
+                        <td>@student.Name</td>
+                        <td>@student.Email</td>
+                        <td>@student.Branch</td>
+                        <td>
+                            @(student.Gender == Gender.Male
+                                ? "Nam"
+                                : "Nữ")
+                        </td>
+                        <td>
+                            @(student.IsRegular
+                                ? "Chính quy"
+                                : "Phi chính quy")
+                        </td>
+                        <td>@student.Address</td>
+                        <td>
+                            @student.DateOfBorth?.ToString("dd/MM/yyyy")
+                        </td>
+                        <td>@student.Score</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="alert alert-info">
+        Chưa có sinh viên nào trong danh sách.
+    </div>
+}

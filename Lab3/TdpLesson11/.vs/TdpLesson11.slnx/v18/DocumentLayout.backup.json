@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LTW1\\TdpLesson11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|d:\\ltw1\\tdplesson11\\tdplesson11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|solutionrelative:tdplesson11\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|d:\\ltw1\\tdplesson11\\tdplesson11\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|solutionrelative:tdplesson11\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|d:\\ltw1\\tdplesson11\\tdplesson11\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|solutionrelative:tdplesson11\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|d:\\ltw1\\tdplesson11\\tdplesson11\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|solutionrelative:tdplesson11\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|d:\\ltw1\\tdplesson11\\tdplesson11\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|solutionrelative:tdplesson11\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|d:\\ltw1\\tdplesson11\\tdplesson11\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|solutionrelative:tdplesson11\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|d:\\ltw1\\tdplesson11\\tdplesson11\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512BCAE0-5716-4A2A-B6FD-D001A91E1601}|TdpLesson11\\TdpLesson11.csproj|solutionrelative:tdplesson11\\models\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Program.cs",
+              "RelativeDocumentMoniker": "TdpLesson11\\Program.cs",
+              "ToolTip": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Program.cs",
+              "RelativeToolTip": "TdpLesson11\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T00:46:42.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "TdpLesson11\\Views\\Student\\Create.cshtml",
+              "ToolTip": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "TdpLesson11\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-28T00:21:46.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "TdpLesson11\\Views\\Student\\Index.cshtml",
+              "ToolTip": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "TdpLesson11\\Views\\Student\\Index.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAawDgAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-28T00:21:26.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "TdpLesson11\\Models\\Student.cs",
+              "ToolTip": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Models\\Student.cs",
+              "RelativeToolTip": "TdpLesson11\\Models\\Student.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwEAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T00:20:51.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "TdpLesson11\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "TdpLesson11\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T00:20:32.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Models\\Gender.cs",
+              "RelativeDocumentMoniker": "TdpLesson11\\Models\\Gender.cs",
+              "ToolTip": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Models\\Gender.cs",
+              "RelativeToolTip": "TdpLesson11\\Models\\Gender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T00:26:49.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Branch.cs",
+              "DocumentMoniker": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Models\\Branch.cs",
+              "RelativeDocumentMoniker": "TdpLesson11\\Models\\Branch.cs",
+              "ToolTip": "D:\\LTW1\\TdpLesson11\\TdpLesson11\\Models\\Branch.cs",
+              "RelativeToolTip": "TdpLesson11\\Models\\Branch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-28T00:26:07.21Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
